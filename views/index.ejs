@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Item List</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Item List</h1>
+  </header>
+  <div class="container">
+    <a href="/create">Create New Item</a>
+    <ul>
+      <% items.forEach(item => { %>
+        <li>
+          <%= item.name %> 
+          <a href="/edit/<%= item.id %>">Edit</a>
+          <form action="/delete/<%= item.id %>" method="POST" style="display:inline;">
+            <button type="submit">Delete</button>
+          </form>
+        </li>
+      <% }); %>
+    </ul>
+  </div>
+</body>
+</html>

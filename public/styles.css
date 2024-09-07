@@ -1,0 +1,131 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;/* public/styles.css */
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    
+    header {
+      background: #333;
+      color: #fff;
+      padding-top: 10px;
+      min-height: 50px;
+      border-bottom: #fff 3px solid;
+    }
+    
+    header h1 {
+      text-align: center;
+      margin: 0;
+    }
+    
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #555;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    li {
+      padding: 10px;
+      background: #fff;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+    }
+    
+    form {
+      margin-top: 20px;
+    }
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 50px;
+    border-bottom: #fff 3px solid;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
